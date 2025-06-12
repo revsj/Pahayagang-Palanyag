@@ -17,7 +17,7 @@ const articles = [
   { title: "Ang Pahayagang Palanyag : A Three-Part Narrative", url: "Article1.html" },
   { title: "PULO: TADYANG NG SAN DIONISIO", url: "Article2.html" },
   { title: "announcement", url: "ann.html" },
-  { title: "about", url: "about.html" },
+  { title: "about", url: "About.html" },
   { title: "archives", url: "arch.html" },
   { title: "contact us", url: "cn.html" },
   { title: "Homepage", url: "index.html" },
