@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 1 -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pahayagang Palanyag</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="boxicons.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-purple-50">
+  <div class="relative w-full max-w-xs">
+  <form class="flex items-center w-full" id="searchForm">
+    <input type="text" id="searchInput" placeholder="Search..."
+      class="bg-gray-200 w-full px-3 py-2 rounded-l-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-200">
+    <button type="submit" class="bg-sky-500/100 border hover:bg-gray-500 text-white px-4 py-2 rounded-r-md">
+      <i class='bx bx-search'></i>
+    </button>
+  </form>
+  <ul id="suggestions" class="absolute left-0 top-full bg-white border rounded shadow mt-1 w-full z-10 hidden"></ul>
+</div>
+    <!-- Navbar -->
+    <nav id="navbar" class="text-gray-600 hidden md:flex md:items-center md:space-x-6">
+      <a href="Index.html" class="text-white hover:text-gray-200">Home</a>
+      <a href="About.html" class="text-white hover:text-gray-200">About Pahayagang Palanyag</a>
+      <a href="arch.html" class="text-white hover:text-gray-200">Archives</a>
+      <a href="ann.html" class="text-white hover:text-gray-200">Announcements</a>
+      <a href="cn.html" class="text-white hover:text-gray-200">Contact Us</a></li>
+    </nav>
+
+    <!-- Icons -->
+    <div class="flex items-center px-2 py-3 md:px-8 space-x-4">
+      <!-- <a href="#" class="text-white text-2xl hover:text-gray-200"><i class='bx bx-shopping-bag'></i></a>
+      <a href="#" class="text-white text-2xl hover:text-gray-200"><i class='bx bx-user'></i></a> -->
+      <button id="menu-icon" class="text-3xl text-white md:hidden cursor-pointer">
+        <i class='bx bx-menu' class="cursor-pointer"></i>
+      </button>
+    </div>
+
+    <nav id="mobile-menu" class="hidden fixed top-0 right-0 h-full w-2/3 bg-sky-500/100 shadow-lg">
+      <button id="close-icon" class="text-3xl text-white absolute top-4 right-4 cursor-pointer">
+        <i class='bx bx-x'></i>
+      </button>
+      <ul class="flex flex-col items-center space-y-6 mt-10">
+        <li><a href="Index.html" class="text-white hover:text-gray-200">Home</a></li>
+        <li><a href="About.html" class="text-white hover:text-gray-200">About Pahayagang Palanyag</a></li>
+        <li><a href="arch.html" class="text-white hover:text-gray-200">Archives</a></li>
+        <li><a href="ann.html" class="text-white hover:text-gray-200">Announcements</a></li>
+        <li><a href="cn.html" class="text-white hover:text-gray-200">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="flex flex-col md:flex-row md:items-center items-center justify-center px-6 md:px-12 py-8 md:py-12">
+    <div class="flex-1 max-w-2xl md:text-left text-center mt-20">
+      <h1 class="text-4xl md:text-4xl text-sky-500 text-center font-bold mt-3 mb-4">
+     Ang Pahayagang Palanyag : <br>A Three-Part Narrative 
+
+    <hr>  
+    </h1>
+      <p class="text-gray-900 text-start font-semibold mt-2">
+       <b>Unang Pahayag: Ang Hindi Nakikitang Pintig</b>
+ 
+<!-- <div class="flex flex-col items-center mt-8 md:mt-0 md:ml-6">
+      <img src="logo.jpg" alt="Logo" class="w-48 h-48 object-contain border rounded mb-2">
+      <hr class="w-24 md:w-32 border-t-2 border-gray-300 mt-2"> -->
+    <p class="text-gray-900 text-start font-semibold mt-2"> Sa bawat dagundong ng truck at ugong ng mga jeep sa Roxas Boulevard, sa sigaw at tawagan ng mga vendors sa Baclaran Market, sa mabilisang yabag ng mga commuters patungong LRT sa Dr. Santos Station at PITX, ang Parañaque ay pumipintig sa mga kwentong hindi nasusulat.  
+      <br><br>Pero makinig ka maigi—beyond the commercial noises, may mas mahalagang mga tunog: ang yapak at kaluskos ng paa sa umaga ng mga fish vendors sa “bulungan,” ang paglipat ng pahina ng mga nagsisiksikang estudyante sa ating mga pampublikong paaralan, ang usap-usapan sa mga eski-eskinita ng mga barangay. 
+      <br><br>Ito at marami pang iba ang ilan lamang sa mga kwentong hindi nabibigyan ng boses sa tradisyonal na pamamahayag—ang pang-araw-araw na laban at kwento ng tagumpay ng mga ordinaryong mamamayan. 
+      <br><br>At ngayon, may bagong tagapagpahayag ang Parañaque: This isn't journalism from a distance; hindi galing sa malalaking news networks, kundi mula mismo sa mga taong nakatira sa lungsod na ito.
+      <br><br>Ito ang "Pahayagang Palanyag"—isang community-powered journalism initiative na nag-ugat sa isang masidhing pagnanais na mabigyan ng boses ang bawat lokal na taga-lungsod: ang bawat Parañaqueño.
+      <br><br>Sa isang lungsod na may malalim na kasaysayan, mayaman sa potensyal, at may makukulay na karanasang di makukumpara sa ibang lugar, nais naming ibahagi ang tunay na yaman nito mula sa mga kwentong magbibigay inspirasyon sa bawat Parañaqueño.   
+      <br><br>At sa isang banda - sa isang lungsod na nahahati sa pagitan ng matataas na condominiums at mga informal settlers, nais naming ipahayag ang katotohanan. Madalas, ang katotohanan ay nasa mga pabulong na hinaing ng mga taong laging napapabayaan at walang kapit.
+      <br><br>Ang aming paninindigan ay malinaw: ang katapatan ay hindi sa mga nasa posisyon, kundi sa mga ordinaryong mamamayan, mga maliliit na tinig ng isang siyudad na may nais ipahayag - lungkot, saya, pag-asa, pighati, o isang simpleng panawagan.
+      <br><br><br><b>Ikalawang Pahayag: Simula ng Isang Kilusan</b>
+      <br><br>To understand why "Pahayagang Palanyag" exists, kailangan mong makita ang tunay na mukha ng Parañaque: A city of stark contrast. Ang kumikinang na Solaire at Okada ay nakatayo halos katabi ng mga bahay na gawa lamang sa kahoy-kahoy, corrugated na yero, at kung papalarin, semento.
+      <br><br>Para sa iilan, prosperity. Ngunit para sa marami, ito'y isang ilusyon na may malalim na sinasabi.
+      <br><br>It is within this profound dichotomy that "Pahayagang Palanyag" found its urgent purpose. Hindi bilang isang tradisyunal na pahayagan, kundi bilang tagapaghatid ng mga tinig na hindi naririnig.
+      <br><br>"Grassroots" ang aming pundasyon. Ang mga kwentong ipapahayag ay hindi lamang tungkol sa mga tao—kami ay nagsusulat kasama nila. Ito ay pamamahayag na nakatanim sa lupa ng Parañaque, sa pawis at pangarap ng mga taong bumubuhay sa lungsod.
+      <br><br>Mula sa mga residente sa eskinita ng Tambo o La Huerta na amoy ang basura at usok ng sasakyan hanggang sa mga pamilyang nawalan ng tahanan dahil sa baha o demolisyon.
+      <br><br>Hindi kami "neutral"—kami ay nagpapahayag ng aming paninindigan sa gitna ng mga isyung panlipunang kinakaharap ng ating lungsod.
+      <br><br><br><b>Ikatlong Pahayag: Higit pa sa Dilim ang aming Liwanag</b>
+      <br><br>Ngunit ang "Pahayagang Palanyag" ay hindi lamang tungkol sa paglantad ng mga suliranin. Ito rin ay pagbibigay-pugay sa mga hindi nakikitang yaman na nagbibigay-buhay sa lungsod.
+      <br><br>Isipin mo ang amoy ng mga pandesal at paresan sa Barangay Sto. Niño, kung saan ang simpleng mga karinderya ay kinabubuhay na ng maraming pamilya. These are the unsung economic engines of the community, whose daily grind fuels countless homes. Hindi lamang namin ito kinukunan ng litrato—ikinukuwento din namin ang mga karanasan ng mga lola’t lolo, single parents, o mag-asawang nagpupursigi sa kabila ng kakulangan ng oportunidad sa ating syudad.
+      <br><br>We exist to uplift our small businesses, our tireless vendors, our unknown artists, our driven athletes, and all the hidden talents that breathe life into this city.
+      <br><br>Ang kanilang katatagan, ang kanilang mga pangarap na matigas na hinulma laban sa mga pagsubok, ay nararapat na sumikat. We want not just Parañaque, but the whole country, to know these priceless gems exist.
+      <br><br>Tingnan mo ang mga pader sa Baclaran—ang street art doon ay hindi lamang dekorasyon. Ito ay isang makulay na sigaw ng mga kabataang nais magpahayag sa pamamagitan ng sining.
+      <br><br>Sa mga barangay gyms naman sa Don Bosco at Elorde sa Sucat, may mga atletang nangangarap ng mas magandang bukas—kahit walang sapat na suporta. Hindi lamang namin sinusulat ang kanilang mga tagumpay; kundi ang kwento at tapang ng mga teenage athletes na ang mga katawan ay hinulma dahil sa pangangailangan.
+      <br><br><br><b>“Higit Pa sa Pahayagan—Ito ay Panawagan”</b>
+      <br><br>Ang bumubuo sa initative na ito ay mga saksi na nagbibigay-boses sa mga walang boses, nagbibigay-inspirasyon sa isang komunidad upang magpunyagi, magpatuloy, at manindigan. 
+      <br><br>Nais naming ipahayag ang pintig ng puso ng ating Palanyag: ang mahal nating lungsod ng Parañaque. 
+      <p class="text-right text-gray-600 mt-4">
+        <i>Isinulat ni Faber Castell | Pahayagang Palanyag  </i>
+
+    <!-- </div> -->
+    </p>
+    </p>
+  </section>
+
+  <div class="text-center mt-4">
+  <a href="arch.html"><button id="loadMore"  class="bg-sky-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 cursor-pointer">
+      Load More Articles/Stories
+ </button>
+</a>
+  
+  <section class="flex flex-col md:flex-row md:items-center items-center justify-center px-6 md:px-12 py-8 md:py-12">
+    <div class="flex-1 max-w-2xl md:text-left text-center mt-2">
+        <h1 class="text-4xl md:text-4xl text-sky-500 font-bold text-center mb-4">
+      OUR COMMITMENT
+    <hr>  
+    </h1>
+      <p class="text-gray-900 font-semibold mt-2 ">
+        Bilang kabahagi ng iba’t ibang komunidad ng Parañaque, tungkulin namin na magbahagi ng mga lokal na pangyayari at istoryang may kabuluhan sa pamamagitan ng tapat, malinis, at makataong pamamahayag.  
+    </div>
+    
+  </section>
+
+  <section class="flex flex-col md:flex-row md:items-center items-center justify-center px-6 md:px-12 py-8 md:py-12">
+    <div class="flex-1 max-w-2xl md:text-left text-center mt-2">
+      <h1 class="text-4xl md:text-4xl text-sky-500 font-bold text-center mb-4">
+      WE ARE LOOKING FOR CONTRIBUTORS
+    <hr>  
+    </h1>
+      <p class="text-gray-900 font-semibold mt-2 ">
+        <b>Isang plataporma para sa iyong kwento—sumulat para sa Pahayagang Palanyag!</b> <br><br>Naghahanap kami ng mga manunulat, photographers at iba pang may hilig sa <b>pagsasalaysay ng tunay na karanasan at isyung panlipunan</b> sa lungsod ng Parañaque.
+        <br><br>Maaaring ito’y tungkol sa <b></b>tagong yaman ng inyong barangay, mga pang-araw araw na hamon sa buhay ng isang Parañaqueños,</b> o <b>mga local talents at small businesses</b>—lahat ng kwento ay mahalaga at may lugar dito.
+        Nakikipagtulungan din kami sa mga proyekto ng <b>Tayo-Tayo Volunteer Group</b>, tulad ng <b>Ang Galing!</b>, na layuning paunlarin ang edukasyon at pagbasa sa komunidad. Kung may kwento kayong nais ipahatid kaugnay sa adhikaing ito, wag mag-atubili na ibahagi ito sa amin.
+        <br><br><b>Tayo-Tayo. Nagpapahayag para sa ating minamahal na Palanyag.</b>
+    </div>
+    
+  </section>
+
+  
+
+
+
+    
+</body>
+
+<footer>
+  <div class="text-center mt-10 text-lg text-gray-600">
+    Pahayagang Palanyag 2025
+  </div>
+</footer>
+  
+
+<script src="Index.js"></script>
+
+</html>

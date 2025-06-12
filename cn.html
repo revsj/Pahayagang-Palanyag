@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 1 -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pahayagang Palanyag</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="boxicons.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-purple-50">
+  <header class="bg-sky-500/100 flex items-center justify-between px-4 py-3 md:px-8">
+   <div class="relative w-full max-w-xs">
+  <form class="flex items-center w-full" id="searchForm">
+    <input type="text" id="searchInput" placeholder="Search..."
+      class="bg-gray-200 w-full px-3 py-2 rounded-l-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-200">
+    <button type="submit" class="bg-sky-500/100 border hover:bg-gray-500 text-white px-4 py-2 rounded-r-md">
+      <i class='bx bx-search'></i>
+    </button>
+  </form>
+  <ul id="suggestions" class="absolute left-0 top-full bg-white border rounded shadow mt-1 w-full z-10 hidden"></ul>
+</div>
+    <!-- Navbar -->
+    <nav id="navbar" class="text-gray-600 hidden md:flex md:items-center md:space-x-6">
+      <a href="Index.html" class="text-white hover:text-gray-200">Home</a>
+      <a href="About.html" class="text-white hover:text-gray-200">About Pahayagang Palanyag</a>
+      <a href="arch.html" class="text-white hover:text-gray-200">Archives</a>
+      <a href="ann.html" class="text-white hover:text-gray-200">Announcements</a>
+      <a href="cn.html" class="text-white hover:text-gray-200">Contact Us</a></li>
+    </nav>
+
+    <!-- Icons -->
+    <div class="flex items-center px-2 py-3 md:px-8 space-x-4">
+      <!-- <a href="#" class="text-white text-2xl hover:text-gray-200"><i class='bx bx-shopping-bag'></i></a>
+      <a href="#" class="text-white text-2xl hover:text-gray-200"><i class='bx bx-user'></i></a> -->
+      <button id="menu-icon" class="text-3xl text-white md:hidden cursor-pointer">
+        <i class='bx bx-menu' class="cursor-pointer"></i>
+      </button>
+    </div>
+
+    <nav id="mobile-menu" class="hidden fixed top-0 right-0 h-full w-2/3 bg-sky-500/100 shadow-lg">
+      <button id="close-icon" class="text-3xl text-white absolute top-4 right-4 cursor-pointer">
+        <i class='bx bx-x'></i>
+      </button>
+      <ul class="flex flex-col items-center space-y-6 mt-10">
+        <li><a href="Index.html" class="text-white hover:text-gray-200">Home</a></li>
+        <li><a href="About.html" class="text-white hover:text-gray-200">About Pahayagang Palanyag</a></li>
+        <li><a href="arch.html" class="text-white hover:text-gray-200">Archives</a></li>
+        <li><a href="ann.html" class="text-white hover:text-gray-200">Announcements</a></li>
+        <li><a href="cn.html" class="text-white hover:text-gray-200">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="flex flex-col md:flex-row md:items-center items-center justify-center px-6 md:px-12 py-8 md:py-12">
+    <div class="flex-1 max-w-2xl md:text-left text-center mt-20">
+      <h1 class="text-4xl md:text-4xl text-sky-500 text-center font-bold mt-3 mb-4">
+   CONTACT US
+    <hr>  
+    </h1>
+      
+<!-- <div class="flex flex-col items-center mt-8 md:mt-0 md:ml-6">
+      <img src="logo.jpg" alt="Logo" class="w-48 h-48 object-contain border rounded mb-2">
+      <hr class="w-24 md:w-32 border-t-2 border-gray-300 mt-2"> -->
+    <p class="text-gray-900 text-center text-xl text-2xl mt-2"> Ang Pahayagang Palanyag ay bukas sa iyong komento, suhestyon, o katanungan. <br><br>You can reach us via email: pahayagangpalanyag@gmail.com
+
+    </p>
+  </section>
+
+ 
+</body>
+
+
+<footer>
+  <div class="text-center mt-10 text-lg text-gray-600">
+    Pahayagang Palanyag 2025
+  </div>
+</footer>
+  
+
+<script src="Index.js"></script>
+
+</html>

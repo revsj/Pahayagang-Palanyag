@@ -1,0 +1,30 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-style: Sans-serif;
+
+}
+
+p {
+    font-style: Open Sans, Roboto;
+}
+
+header{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+z-index: 1000;
+box-shadow: 0 1px 6px 0 rgb(32 33 36/ 10%);
+transition: all.50s ease;
+}
+
+.section {
+    margin-top: 40px;
+}
+
+

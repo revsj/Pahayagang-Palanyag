@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 1 -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pahayagang Palanyag</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="boxicons.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-purple-50">
+ <div class="relative w-full max-w-xs">
+  <form class="flex items-center w-full" id="searchForm">
+    <input type="text" id="searchInput" placeholder="Search..."
+      class="bg-gray-200 w-full px-3 py-2 rounded-l-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-200">
+    <button type="submit" class="bg-sky-500/100 border hover:bg-gray-500 text-white px-4 py-2 rounded-r-md">
+      <i class='bx bx-search'></i>
+    </button>
+  </form>
+  <ul id="suggestions" class="absolute left-0 top-full bg-white border rounded shadow mt-1 w-full z-10 hidden"></ul>
+</div>
+    <!-- Navbar -->
+    <nav id="navbar" class="text-gray-600 hidden md:flex md:items-center md:space-x-6">
+      <a href="Index.html" class="text-white hover:text-gray-200">Home</a>
+      <a href="About.html" class="text-white hover:text-gray-200">About Pahayagang Palanyag</a>
+      <a href="arch.html" class="text-white hover:text-gray-200">Archives</a>
+      <a href="ann.html" class="text-white hover:text-gray-200">Announcements</a>
+      <a href="cn.html" class="text-white hover:text-gray-200">Contact Us</a></li>
+    </nav>
+
+    <!-- Icons -->
+    <div class="flex items-center px-2 py-3 md:px-8 space-x-4">
+      <!-- <a href="#" class="text-white text-2xl hover:text-gray-200"><i class='bx bx-shopping-bag'></i></a>
+      <a href="#" class="text-white text-2xl hover:text-gray-200"><i class='bx bx-user'></i></a> -->
+      <button id="menu-icon" class="text-3xl text-white md:hidden cursor-pointer">
+        <i class='bx bx-menu' class="cursor-pointer"></i>
+      </button>
+    </div>
+
+    <nav id="mobile-menu" class="hidden fixed top-0 right-0 h-full w-2/3 bg-sky-500/100 shadow-lg">
+      <button id="close-icon" class="text-3xl text-white absolute top-4 right-4 cursor-pointer">
+        <i class='bx bx-x'></i>
+      </button>
+      <ul class="flex flex-col items-center space-y-6 mt-10">
+        <li><a href="Index.html" class="text-white hover:text-gray-200">Home</a></li>
+        <li><a href="About.html" class="text-white hover:text-gray-200">About Pahayagang Palanyag</a></li>
+        <li><a href="arch.html" class="text-white hover:text-gray-200">Archives</a></li>
+        <li><a href="ann.html" class="text-white hover:text-gray-200">Announcements</a></li>
+        <li><a href="cn.html" class="text-white hover:text-gray-200">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="flex flex-col md:flex-row md:items-center items-center justify-center px-6 md:px-12 py-8 md:py-12">
+    <div class="flex-1 max-w-2xl md:text-left text-center mt-20">
+      <h1 class="text-4xl md:text-4xl text-sky-500 text-center font-bold mt-3 mb-4">
+    PULO: <br>TADYANG NG SAN DIONISIO
+    <hr>  
+    </h1>
+      <p class="text-gray-900 text-start font-semibold mt-2">
+       <b>Isang Balik-Tanaw</b>
+ 
+<!-- <div class="flex flex-col items-center mt-8 md:mt-0 md:ml-6">
+      <img src="logo.jpg" alt="Logo" class="w-48 h-48 object-contain border rounded mb-2">
+      <hr class="w-24 md:w-32 border-t-2 border-gray-300 mt-2"> -->
+    <p class="text-gray-900 text-start font-semibold mt-2"> Pikit-mata, aking inaalala ang dekada nobenta. Sa aking gunita ay larawan ng isang araw mula sa aking kabataan – tag-init at bakasyon ng mga mag-aaral. Kasama ng pamilya at mga kaibigan, ako’y nagtungo sa Pulo at doo’y lumangoy maghapon. Langoy, tampisaw, tawanan, habulan. Napakasaya. Pagmulat ng aking mga mata, nag-iba ang eksena. Bakit nagkaganito at kayraming basura?
+      <br><br>Pulo? Ano ‘yon at saan? May beach tayo? Oo – dati. 
+      <br><br>Bago pa man nagkaroon ng Pulo, sikat na ang San Dionisio sa mga naggagandahang beach resort sa baybaryin ng Manila Bay malapit sa Kabihasnan tulad ng Jale Beach, Elfaro Beach, at Aroma Beach. Kwento pa nga ng aking Mama, maraming nagpupunta roon at may mga dumarayo pa mula sa ibang lugar. Nagtitinda pa nga raw noon ang kanyang lola ng ihaw-ihaw sa Elfaro. Ngunit ang mga beach resort na ito ay unti-unting naglaho dahil sa mga proyekto ng reklamasyon. Nobyembe 1973 ay nakakuha ng kontrata ang Construction Development Corporation of the Philippines para sa isagawa ang Manila–Cavite Coastal Road and Reclamation Project na naglalayon na maidugtong ang Roxas Boulevard hanggang sa lalawigan ng Cavite. 
+      <br><br>Ang proyekto ay natapos at binuksan sa trapiko noong Setyembre 1985. May dalawang magkadugtong na isla na nabuo malapit sa baybayin ng Manila Bay na mula sa labis na lupang ginamit sa reklamasyon habang ginagawa ang Coastal Road – ang Long Island, at ang Freedom Island na mas kilala noon ng mga lokal bilang Pulo. Oo, ang Pulo ay isang artipisyal na isla lamang noon ngunit kalaunan ay naging napakahalagang bahagi ng saribuhay o biodiversity.
+      <br><br>Paglipas ng panahon, ang mga isla ay nagkaroon ng mga halaman at latian, at tinaniman na rin ng mga bakawan upang maiwasan ang pagguho ng lupa. Dahil dito, nakaakit ang lugar ng buhay-ilang o wildlife kung saan karamihan ay mga ibon na katutubo o endemic, at migratory birds. Kaya nama’y idineklara ng pamahalaan noong Abril 22, 2007 ang lugar bilang isang Critical Habitat sa pamamagitan ng Presidential Proclamation No. 1412 at tinawag itong Las Piñas–Parañaque Critical Habitat and Ecotourism Area (LPPCHEA). Kabilang sa mga endemic na ibon sa lugar ay ang Philippine Duck o itik. Ang LPPCHEA ay kinikilala bilang “last bird sanctuary,” at ang natatanging kilalang breeding ground ng mga itik sa Metro Manila.
+      <br><br>Ang LPPCHEA ay kinokonsidera rin na isang wetland bilang ang lugar ay may mga marsh o latian. Dahil sa kritikal na bahagi na ginagampanan nito sa kaligtasan ng mga nanganganib na mga ibon, ito ay kinilala bilang Wetland of International Importance ng Ramsar Convention, at naging ikaanim na Ramsar Site sa bansa. Sa pagkilalang ito, tinawag na ang LPPCHEA bilang Las Piñas–Parañaque Wetland Park (LPPWP). Ang Ramsar Convention ay naglalayong itigil ang pagkawala ng mga latian at tiyakin ang matalinong paggamit ng mga ito para sa kapakanan ng kapwa tao at ng kapaligiran. Malaki ang papel ng mga latian sa pagkontrol ng baha, paglilinis ng tubig, pagkontrol sa pagguho ng baybayin, at pagkakaroon ng tirahan para sa iba't ibang uri ng halaman at hayop, kabilang ang mga isda, ibon, at iba pa na sumusuporta sa biodiversity.
+      <br><br>At sa isang banda - sa isang lungsod na nahahati sa pagitan ng matataas na condominiums at mga informal settlers, nais naming ipahayag ang katotohanan. Madalas, ang katotohanan ay nasa mga pabulong na hinaing ng mga taong laging napapabayaan at walang kapit.
+      <br><br><br><b>Ang Pulo sa Kasalukuyan</b>
+      <br><br>Freedom Island, LPPCHEA, LPPWP, o kung ano pa man ang tawag dito ngayon, ito para sa akin ay ang Pulo na may napakahalagang ambag sa ating buhay at saribuhay. Ngunit ito ay tila napabayaan na at napupuno ng basura kaakibat ng paglago ng populasyon. Sa kasamaang palad, ang Pulo ay nagiging catch basin ng mga basura lalo na tuwing tag-ulan dahil sa lokasyon nito sa kahabaan ng Manila Bay. Dito natitipon ang mga basura mula sa nakapalibot na mga anyong tubig at mga komunidad. Hindi na ako nakapagswi-swimming sa Pulo ngayon. Ang tanging nagagawa ko na lamang ay mamulot ng basura roon. Ang pagkakatipon ng basura sa Pulo o LPPWP, maliban sa pagiging sanhi ng polusyon sa Manila Bay, ay nagdudulot rin ng banta sa ecosystem ng lugar. 
+      <br><br><br><b>May Magagawa</b>
+      <br><br>Upang maibsan ito, katulong ang DENR, ay may mga organisasyon na regular na nagsasagawa ng paglilinis ng baybayin o coastal cleanup. Isa na rito ang Planet CORA, isang haligi ng CORA na isang non-government organization na itinatag at pinamumunuan ni Antoinette Taus. Ang Planet CORA ay naglalayon na protektahan ang kapaligiran sa pamamagitan ng paglilinis sa mga baybayin, pagtatanim ng puno, pagsasagawa ng mga programa sa rehabilitasyon ng tubig, at marami pang ibang gawaing pangkalikasan. Bawat buwan ay nagsasagawa ang Planet CORA ng coastal cleanup at nito lamang ika-31 ng Mayo ay nakibahagi tayo sa gawaing ito kasama sina Drew Uy, Eric Martinez, at iba pang mga kaibigan mula sa Tayo-Tayo volunteer group.
+      <br><br>Sa pakikipagtulungan ng Korea International Cooperation Agency (KOICA), Korea Marine Environment Management Corporation (KOEM), Our Sea of East Asia Network (OSEAN), at Department of Natural Resources (DENR) – NCR, pinangunahan ng Planet CORA ang My OSEAN Mission coastal cleanup sa LPPWP kasabay ng pagdiriwang ng Month of the Ocean. 
+      <br><br>Ang My OSEAN Mission ay naglalayong palakasin at pagyabungin ang bolunterismo, pakikipag-ugnayan, at impluwensyahan ang positibong pagbabago sa kaisipan hinggil sa basura sa karagatan o marine litter sa Pilipinas. Mayroong 154 na volunteer at Citizen Scientist ang nagtulong-tulong sa paglilinis ng baybayin noong araw na iyon at nakalikom ng kabuuang bigat na 592 kilo ng basura. Ang mga basura ay nilikom nang magkakahiwalay ayon sa uri nito at ang pinakamaraming nakolekta ay mga food wrapper na umabot sa 1,761 piraso.
+      <br><br>Itinatala ng mga Citizen Scientist ang datos ng mga nalilikom na basura. Ang mga Citizen Scientist ay mga volunteer na sumailalim sa pagsasanay sa tamang pangangalap ng datos ng basura. Ang naitalang datos naman ay dadaan sa isang pananaliksik na makatutulong sa pagbuo ng mas epektibong marine litter monitoring, pagpapalalim ng ating pag-unawa sa problema sa basura, at lalo na sa pagbuo at pagpapatupad ng mga epektibong patakaran at mga kasanayan sa pamamahala upang matugunan ang polusyon sa basura sa Manila Bay. Kaya masasabing hindi simpleng pamumulot lamang ng basura ang isinasagawa sa mga coastal cleanup ng Planet CORA, may siyentipikong paraan itong sinusundan. <b>Kung tutuusin, ang mga maliliit na makabuluhang bagay, kung gagawin ng mas maraming tao – at ng mas madalas – ay maaaring magdulot ng mas malaking positibong epektong pangkalahatan.</b>  
+      <br><br><br><b>Para sa Hinaharap</b>
+      <br><br>Malayo pa ngunit malayo na. Hindi lamang sa pagpulot ng basura ang solusyon sa polusyon ngunit ito ay isang mahalagang hakbang tungo sa hinahangad natin na mas protektado, mas malinis, at mas mayabong na LPPWP. Umaasa ako na balang araw, kung ako’y muling magbabalik-tanaw, hindi na basura ang makikita pagmulat ng aking mga mata. Nawa’y maranasan din ng susunod na henerasyon ang Pulo ng aking kabataan na malinis at nalalanguyan. Ang Pulo ay pawang tadyang ng San Dionisio. Maliban sa ito ay matatagpuan sa bandang tagiliran ng aking mahal na barangay, ito ay may mahalaga at malalim na koneksyon sa ating buhay at saribuhay.
+      <br><br>Nais mo bang makiisa sa mga upcoming projects and clean-up drive para sa Pulo? Makipag-ugnayan lamang sa Tayo-Tayo Volunteer Group Facebook Page o mag email sa Pahayagang Palanyag Team. 
+      <br><br><b>Tayo-Tayo. Para sa kasalukuyan at sa susunod na henerasyon ng ating lungsod.</b>  
+      <p class="text-right text-gray-600 mt-4">
+        <i>Isinulat ni Princess | Pahayagang Palanyag  </i>
+
+    <!-- </div> -->
+    </p>
+    </p>
+  </section>
+
+  <div class="text-center mt-4">
+  <a href="arch.html"><button id="loadMore"  class="bg-sky-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 cursor-pointer">
+      Load More Articles/Stories
+ </button>
+</a>
+  
+  <section class="flex flex-col md:flex-row md:items-center items-center justify-center px-6 md:px-12 py-8 md:py-12">
+    <div class="flex-1 max-w-2xl md:text-left text-center mt-2">
+        <h1 class="text-4xl md:text-4xl text-sky-500 font-bold text-center mb-4">
+      OUR COMMITMENT
+    <hr>  
+    </h1>
+      <p class="text-gray-900 font-semibold mt-2 ">
+        Bilang kabahagi ng iba’t ibang komunidad ng Parañaque, tungkulin namin na magbahagi ng mga lokal na pangyayari at istoryang may kabuluhan sa pamamagitan ng tapat, malinis, at makataong pamamahayag.  
+    </div>
+    
+  </section>
+
+  <section class="flex flex-col md:flex-row md:items-center items-center justify-center px-6 md:px-12 py-8 md:py-12">
+    <div class="flex-1 max-w-2xl md:text-left text-center mt-2">
+      <h1 class="text-4xl md:text-4xl text-sky-500 font-bold text-center mb-4">
+      WE ARE LOOKING FOR CONTRIBUTORS
+    <hr>  
+    </h1>
+      <p class="text-gray-900 font-semibold mt-2 ">
+        <b>Isang plataporma para sa iyong kwento—sumulat para sa Pahayagang Palanyag!</b> <br><br>Naghahanap kami ng mga manunulat, photographers at iba pang may hilig sa <b>pagsasalaysay ng tunay na karanasan at isyung panlipunan</b> sa lungsod ng Parañaque.
+        <br><br>Maaaring ito’y tungkol sa <b></b>tagong yaman ng inyong barangay, mga pang-araw araw na hamon sa buhay ng isang Parañaqueños,</b> o <b>mga local talents at small businesses</b>—lahat ng kwento ay mahalaga at may lugar dito.
+        Nakikipagtulungan din kami sa mga proyekto ng <b>Tayo-Tayo Volunteer Group</b>, tulad ng <b>Ang Galing!</b>, na layuning paunlarin ang edukasyon at pagbasa sa komunidad. Kung may kwento kayong nais ipahatid kaugnay sa adhikaing ito, wag mag-atubili na ibahagi ito sa amin.
+        <br><br><b>Tayo-Tayo. Nagpapahayag para sa ating minamahal na Palanyag.</b>
+    </div>
+    
+  </section>
+
+</body>
+
+
+<footer>
+  <div class="text-center mt-10 text-lg text-gray-600">
+    Pahayagang Palanyag 2025
+  </div>
+</footer>
+  
+
+<script src="Index.js"></script>
+
+</html>
